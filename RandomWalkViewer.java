@@ -18,9 +18,7 @@ public class RandomWalkViewer {
 		for(int i = 0; i < steps; i++) {
 			RandomWalkComponent view = new RandomWalkComponent(path);
 			frame.add(view);
-		}
-				
-		
+		}		
 	}
 	
 	private static int stepGenerator() {
